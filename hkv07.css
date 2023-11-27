@@ -1,0 +1,91 @@
+@import "https://fonts.googleapis.com/earlyaccess/droidarabickufi.css";
+a:visited, a:hover, a:focus {
+text-decoration: none;
+color: #fff;
+}
+
+body {
+ background-image: url('https://static.wixstatic.com/media/608731_91d519c21d5144b39ec613f423e940f5~mv2.gif');
+ background-position: center;
+ font-family: 'Rajdhani', sans-serif;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin: 0;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+
+}
+img {
+ margin-bottom: 0em;
+ text-align: center;
+ width:100%;
+ height:auto;
+
+}
+p {
+ text-align: center;
+ max-width: 100%;
+ color: #ff000070;
+ font-size:46px;
+}
+a:link, a:visited {
+color: #000;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+.font2{
+color:rgb(255, 0, 0);
+}
+audio{
+border-radius: 20px;
+background-color: #0000;   
+width: auto;
+}
+.logo{
+width: 100%;
+height: auto;
+}
+@media (max-width: 500px) {
+.logo{
+width: 100%;
+height: auto;
+}
+.hk{
+width:80%;
+height: auto;
+}
+}
+#btmn{
+align-items: center;
+text-align: center;
+display: flex;
+}
+#btm{
+font-size: 20px;
+width: 60%;
+text-align: center;
+color:#fff;
+}
+hr{
+width: 70%;
+border-radius: 25px;
+color: rgb(255, 0, 0);
+}
+
+
+@media (max-width: 734px) {
+hr{
+width: 45%;
+}
+
+}
+@media (max-width: 536px){
+hr{
+width: 26%;
+}
+}
