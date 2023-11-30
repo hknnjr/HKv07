@@ -3,7 +3,9 @@ a:visited, a:hover, a:focus {
 text-decoration: none;
 color: #fff;
 }
-
+:root {
+ color-scheme: dark;
+}
 body {
  background-image: url('https://static.wixstatic.com/media/608731_91d519c21d5144b39ec613f423e940f5~mv2.gif');
  background-position: center;
