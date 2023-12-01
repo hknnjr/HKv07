@@ -45,6 +45,16 @@ width:80%;
 height: auto;
 }
 }
+#f1{
+font-size:1.7rem;
+font-family: Iceland;
+}
+a:link{
+color: #FFFFFF;
+padding: 10px 25px;
+text-decoration: none;
+display: inline-block;
+}
 #btmn{
 align-items: center;
 text-align: center;
