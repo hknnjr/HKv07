@@ -18,7 +18,7 @@ document.onkeydown=keypressed;
        var rev = "fwd";
         function titlebar(val)
         {
-        var msg = "Wh00pz ! You Got Hacked By HKv07 ;D";
+        var msg = "Wh00pz ! You Got Hacked By HKv07";
         var res = " ";
         var speed = 65
         var pos = val;
