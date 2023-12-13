@@ -115,7 +115,7 @@ background-color: #000;
 }
 .modal div, div, p{
 font-size:35px;
-color:red;
+color:#e80000;
 }
 button {
   cursor: pointer;
