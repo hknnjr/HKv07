@@ -100,12 +100,16 @@ body.modal-active {
     z-index: 1000 !important;
 }
 .modal-content {
+    background-image: url('https://hummusforthought.files.wordpress.com/2016/10/whatsapp-image-2016-10-11-at-4-20-47-pm.jpeg');
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     top: 50%;
     left: 50%;
     width: 80%;
     transform: translate(-50%, -50%);
-    background-color: #000;
     padding: 10px;
     border: 1px solid #ff0000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -116,6 +120,10 @@ background-color: #000;
 .modal div, div, p{
 font-size:35px;
 color:#e80000;
+}
+.modal-content p{
+    color: #fff;
+    text-shadow: 0px 0px 9px black;
 }
 button {
   cursor: pointer;
