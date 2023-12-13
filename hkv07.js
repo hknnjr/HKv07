@@ -53,3 +53,9 @@ document.onkeydown=keypressed;
         }
         
         titlebar(0);
+function showMessage() {
+    document.getElementById('messageModal').style.display = 'block';
+}
+function hideMessage() {
+    document.getElementById('messageModal').style.display = 'none';
+}
