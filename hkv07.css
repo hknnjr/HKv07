@@ -168,3 +168,9 @@ button:hover {
 .fnt3{
 color: rgb(0, 213, 0);
 }
+canvas{
+position: fixed;
+top: 0;
+left: 0;
+z-index: -1;
+}
