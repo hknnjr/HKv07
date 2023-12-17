@@ -1,1 +1,77 @@
-var _0x476275=_0x8813;function _0x8813(_0x1b970c,_0x1d5f63){var _0x34847c=_0x3484();return _0x8813=function(_0x88138,_0x47db8c){_0x88138=_0x88138-0x1cd;var _0xde032e=_0x34847c[_0x88138];return _0xde032e;},_0x8813(_0x1b970c,_0x1d5f63);}(function(_0x4148ee,_0x20d582){var _0x5d4c3c=_0x8813,_0xa09e10=_0x4148ee();while(!![]){try{var _0x2afede=-parseInt(_0x5d4c3c(0x1e2))/0x1+parseInt(_0x5d4c3c(0x1cf))/0x2*(parseInt(_0x5d4c3c(0x1e9))/0x3)+parseInt(_0x5d4c3c(0x1cd))/0x4*(parseInt(_0x5d4c3c(0x1ef))/0x5)+parseInt(_0x5d4c3c(0x1d1))/0x6+-parseInt(_0x5d4c3c(0x1d7))/0x7*(parseInt(_0x5d4c3c(0x1da))/0x8)+-parseInt(_0x5d4c3c(0x1ed))/0x9*(parseInt(_0x5d4c3c(0x1df))/0xa)+-parseInt(_0x5d4c3c(0x1e8))/0xb*(-parseInt(_0x5d4c3c(0x1d2))/0xc);if(_0x2afede===_0x20d582)break;else _0xa09e10['push'](_0xa09e10['shift']());}catch(_0xdbbe73){_0xa09e10['push'](_0xa09e10['shift']());}}}(_0x3484,0x941b1));function muter2(){var _0x348b2a=_0x8813;scrW=screen[_0x348b2a(0x1dc)],scrH=screen[_0x348b2a(0x1ec)],window[_0x348b2a(0x1d6)](0x0,0x0),window[_0x348b2a(0x1ea)](0xa,0xa),window['focus']();for(x=0x0;x<0x50;x++){window[_0x348b2a(0x1ea)](0xa,scrH*x/0x50);}for(y=0x0;y<0x50;y++){window[_0x348b2a(0x1ea)](scrW*y/0x50,scrH);}window[_0x348b2a(0x1ea)](scrW,scrH);}function _0x3484(){var _0x2c527a=['rgb(222,\x206,\x208)','80kcgTlM','fillText','availWidth','length','HacK3d/By/HKv07','830JKMWUS','innerHeight','font','679926lqEqJU','px\x20arial','floor','width','muter2();return\x20false','fillStyle','5012997qWaFMa','33441tZTwcE','resizeTo','getContext','availHeight','48609HrlHGo','rgba(0,\x200,\x200,\x200.05)','25wpigWY','random','319268plyZcq','fillRect','166OOJPsk','split','5683362onDtmv','12fmdNxX','innerWidth','getElementById','height','moveTo','694673oKzZXi','oncontextmenu'];_0x3484=function(){return _0x2c527a;};return _0x3484();}document[_0x476275(0x1d8)]=new Function(_0x476275(0x1e6));function keypressed(){alert('Alert\x20\x20:\x0a\x0a\x20You\x20Got\x20Hacked\x20By\x20HKv07\x0a\x0aRegard:\x0a\x20HKv07.');}var c=document[_0x476275(0x1d4)]('bg'),ctx=c[_0x476275(0x1eb)]('2d');c['height']=window[_0x476275(0x1e0)],c['width']=window[_0x476275(0x1d3)];var nameText=_0x476275(0x1de);nameText=nameText[_0x476275(0x1d0)]('');var font_size=0xa,columns=c[_0x476275(0x1e5)]/font_size,drops=[];for(var x=0x0;x<columns;x++)drops[x]=0x2710;function draw(){var _0x54fe78=_0x476275;ctx[_0x54fe78(0x1e7)]=_0x54fe78(0x1ee),ctx[_0x54fe78(0x1ce)](0x0,0x0,c['width'],c[_0x54fe78(0x1d5)]),ctx[_0x54fe78(0x1e7)]=_0x54fe78(0x1d9),ctx[_0x54fe78(0x1e1)]=font_size+_0x54fe78(0x1e3);for(var _0x1fe3ef=0x0;_0x1fe3ef<drops[_0x54fe78(0x1dd)];_0x1fe3ef++){var _0x3b2406=nameText[Math[_0x54fe78(0x1e4)](Math[_0x54fe78(0x1f0)]()*nameText['length'])];ctx[_0x54fe78(0x1db)](_0x3b2406,_0x1fe3ef*font_size,drops[_0x1fe3ef]*font_size);if(drops[_0x1fe3ef]*font_size>c[_0x54fe78(0x1d5)]&&Math['random']()>0.975)drops[_0x1fe3ef]=0x0;drops[_0x1fe3ef]++;}}setInterval(draw,0x21);
+
+       var rev = "fwd";
+        function titlebar(val)
+        {
+        var msg = "Wh00pz ! You Got Hacked By HKv07";
+        var res = " ";
+        var speed = 65
+        var pos = val;
+
+        msg = " " +msg+" ";
+        var le = msg.length;
+        if(rev == "fwd"){
+        if(pos < le){
+        pos = pos+1;
+        scroll = msg.substr(0,pos);
+        document.title = scroll;
+        timer = window.setTimeout("titlebar("+pos+")",speed);
+        }
+        else{
+        rev = "bwd";
+        timer = window.setTimeout("titlebar("+pos+")",speed);
+        }
+        }
+        else{
+        if(pos > 0){
+        pos = pos-1;
+        var ale = le-pos;
+        scrol = msg.substr(ale,le);
+        document.title = scrol;
+        timer = window.setTimeout("titlebar("+pos+")",speed);
+        }
+        else{
+        rev = "fwd";
+        timer = window.setTimeout("titlebar("+pos+")",speed);
+        }
+        }
+        }
+
+        titlebar(0);
+function showMessage() {
+    document.getElementById('messageModal').style.display = 'block';
+}
+function hideMessage() {
+    document.getElementById('messageModal').style.display = 'none';
+}
+
+----
+hkv07.js2
+----
+        var c = document.getElementById("bg");
+            var ctx = c.getContext("2d");
+            c.height = window.innerHeight;
+            c.width = window.innerWidth;
+            var nameText = "HacK3d/By/HKv07";
+            nameText = nameText.split("");
+            var font_size = 10;
+            var columns = c.width/font_size;
+            var drops = [];
+            for(var x = 0; x < columns; x++)
+              drops[x] = 10000;
+            function draw()
+            {
+              ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+              ctx.fillRect(0, 0, c.width, c.height);
+
+              ctx.fillStyle = "rgb(222, 6, 8)";
+              ctx.font = font_size + "px arial";
+              for(var i = 0; i < drops.length; i++)
+              {
+                var text = nameText[Math.floor(Math.random()*nameText.length)];
+                ctx.fillText(text, i*font_size, drops[i]*font_size);
+                if(drops[i]*font_size > c.height && Math.random() > 0.975)
+                  drops[i] = 0;
+                drops[i]++;
+              }
+            }
+            setInterval(draw, 33);
