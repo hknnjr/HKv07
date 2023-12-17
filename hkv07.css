@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/earlyaccess/droidarabickufi.css";
+        @import "https://fonts.googleapis.com/earlyaccess/droidarabickufi.css";
 a:visited, a:hover, a:focus {
 text-decoration: none;
 color: #fff;
@@ -17,6 +17,14 @@ body {
  text-align: center;
  align-items: center;
  justify-content: center;
+}
+img {
+pointer-events: none;
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
 }
 p {
  text-align: center;
@@ -41,7 +49,7 @@ width: 100%;
 height: auto;
 }
 .hk{
-width:80%;
+width:73%;
 height: auto;
 }
 }
@@ -70,6 +78,28 @@ hr{
 width: 70%;
 border-radius: 25px;
 color: rgb(255, 0, 0);
+border-color: rgb(255, 0, 0);
+}
+@media (max-width: 734px) {
+hr{
+width: 45%;
+}
+
+}
+@media (max-width: 536px){
+hr{
+width: 26%;
+}
+}
+.modal.active #closeBtn {
+    pointer-events: auto;
+}
+body.modal-active {
+    pointer-events: none;
+}
+    .modal {
+    display: none;
+    position: frgb(255, 0, 0);
 }
 @media (max-width: 734px) {
 hr{
@@ -100,30 +130,22 @@ body.modal-active {
     z-index: 1000 !important;
 }
 .modal-content {
-    background-image: url('https://hummusforthought.files.wordpress.com/2016/10/whatsapp-image-2016-10-11-at-4-20-47-pm.jpeg');
+    background-image: url('http://blogs.ft.com/photo-diary/files/2016/02/Gaza_AP.jpg');
     background-color: #000;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 80%;
+    width: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
     border: 1px solid #ff0000;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-}
-.modal div{
-background-color: #000;
-}
-.modal div, div, p{
-font-size:35px;
-color:#e80000;
-}
-.modal-content p{
-    color: #fff;
-    text-shadow: 0px 0px 9px black;
+    box-shadow: 0 3px 8px rgba(255, 0, 0, 0.322); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 button {
   cursor: pointer;
@@ -146,24 +168,19 @@ button:hover {
 .modal-content{
     border-width: 3px;
     border-color: rgb(174, 6, 8);
+    border-radius: 7px;
+    width: 83%;
 }
-@media (max-width: 536px){
-.modal-content{
-    width: 90%;
-    padding: 10px; 
+.modal content, p{
+font-size:1.5rem;
+color:#e80000;
+max-width: 100%;
 }
-.modal div, div, p{
-    font-size: 25px;
-}
-}
-@media (max-width: 936px){
-.modal-content{
-    width: 90%;
-    padding: 10px; 
-}
-.modal div, div, p{
-    font-size: 25px;
-}
+
+
+.modal-content p{
+color: #fff;
+text-shadow: 0px 0px 9px black;
 }
 .fnt3{
 color: rgb(0, 213, 0);
@@ -173,4 +190,89 @@ position: fixed;
 top: 0;
 left: 0;
 z-index: -1;
+}
+#bg{
+  background: #ff000000;
+}
+.dv{
+  position: fixed; top: 75px; left: -225px; width: 600px; padding: 10px; box-shadow: rgb(255, 0, 0) 60px 0px 20px; font-size: 30px; text-align: center; transform: rotate(-45deg); transform-origin: 50% 0px 0px; background-color: transparent; border: 1px solid rgb(190, 0, 0); opacity: 0.5; 
+}
+#myModal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            width: 80%;
+
+}
+
+        #modalContent {
+            background-color: #000000;
+            margin: 5% auto;
+            padding: 25px;
+            width: 100%;
+            font-size:1.2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-width: 3px;
+            border-color: rgb(174, 6, 8);
+            border-radius: 7px; 
+            max-width: 400px;
+        }
+        #modalContent{
+          border: 2px solid rgb(174, 6, 8);
+          box-shadow: 0 3px 8px rgba(255, 0, 0, 0.322); 
+        }
+        #closeeBtn {
+            color: #ff0000;
+            float: right;
+            font-size: 1.6em;
+            font-weight: bold;
+        }
+
+        #closeeBtn:hover,
+        #closeeBtn:focus {
+            color: rgb(174, 6, 8);
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .inp1 {
+  background: 0;
+  border: 0;
+  outline: none;
+  width: 86%;
+  max-width: 400px;
+  font-size: 1em;
+  transition: padding 0.3s 0.2s ease;
+  color: rgb(0, 213, 0);
+   text-align:center;
+   border:2px solid rgb(174, 6, 8);
+   border-radius: 25px; 
+      
+}
+
+    input:focus {
+    outline: none;
+}
+#successMessage {
+            display: none;
+            color: rgb(0, 213, 0);
+        }
+        .inp2{
+            cursor: pointer;
+  transition-duration: 0.4s;
+  border: 2px solid rgb(174, 6, 8);
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 4px 21px;
+        }
+        .inp2:hover{
+            background-color: rgb(174, 6, 8);
+  color: white; 
+        }
+        ::placeholder {
+    font-size: 16px;
 }
